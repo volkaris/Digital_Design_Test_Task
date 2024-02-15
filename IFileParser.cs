@@ -1,6 +1,8 @@
-﻿namespace ConsoleApp2;
+﻿using ConsoleApp2.ParsingResult;
+
+namespace ConsoleApp2;
 
 public interface IFileParser
 {
-   public void Parse(string pathToFile);
+    public ParserResult Parse(string pathToFile, string pathToCountedFile);
 }
